@@ -452,7 +452,7 @@ animation: plusEffect 2s ease-in  infinite  ;
 
 
 
-.project-number-left{
+.project-number-left{border-top: none;
   left: -40px;
   top: -45px;
 }
@@ -512,6 +512,7 @@ align-items:normal;
 
 .btn-project:hover{
   border: none;
+  cursor: pointer;
 }
 
 .icon{
@@ -814,4 +815,8 @@ footer{
 .link-wrapper div a:hover{
   color: var(--bgOrange);
   gap: 1rem;
+}
+
+#submit-btn{
+  cursor: pointer;
 }
